@@ -11,7 +11,7 @@ public class RestClient {
     @Autowired
     RestTemplate restTemplate;
 
-    private static final String URL = "http://server:8080";
+    private static final String URL = "http://server:8081";
 
     //public ResponseEntity<List<Distrito>> getAllDistritos(){
     //    return restTemplate.exchange(URL + "/distritos", HttpMethod.GET, null,
